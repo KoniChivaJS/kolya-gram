@@ -1,0 +1,72 @@
+.menu{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    h2{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+        .catalog{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            .item-icon{
+                width: 320px;
+                height: 270px;
+                color: var(--dark-pow);
+                font-weight: 600;
+                font-size: 20px;
+                position: relative;
+                overflow: hidden;
+                margin: 10px;
+                img{
+                    transition:ease all .3s;
+                }
+                .overlay{
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    transition: .3s;
+                    z-index: 1;
+                }
+                .lower-block{
+                    top:85%;
+                    left: 0;
+                    position: absolute;
+                    width: 100%;
+                    z-index: 2;
+                    transition: .3s;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
+            .item-icon:hover{
+                cursor: pointer;
+                img{
+                    transition:ease all .3s;
+                    transform: scale(1.05);
+                }
+                .lower-block{
+                    transition: .3s;
+                    top: 80%;
+                    color: var(--light-pow);
+                }
+                .overlay{
+                    transition: .3s;
+                    background-color: rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+}

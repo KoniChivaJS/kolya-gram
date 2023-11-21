@@ -1,0 +1,27 @@
+:root{
+    --dark:#0D0D0D;
+    --dark-pow:#BE967E;
+    --light-pow:#D9C1AB;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+.notExist{
+  text-align: center;
+  margin-top: 50px;
+}
