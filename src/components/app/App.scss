@@ -1,27 +1,27 @@
-:root{
-    --dark:#0D0D0D;
-    --dark-pow:#BE967E;
-    --light-pow:#D9C1AB;
+:root {
+  --dark: #0d0d0d;
+  --dark-pow: #be967e;
+  --light-pow: #d9c1ab;
 }
-.container{
+.container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 10px;
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
-a{
+a {
   text-decoration: none;
   outline: none;
   color: inherit;
 }
-.notExist{
+.notExist {
   text-align: center;
   margin-top: 50px;
 }
